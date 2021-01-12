@@ -95,6 +95,10 @@
       padding: 0;
     }
 
+    li a {
+      font-size:28px;
+    }
+
     ul {
       display: block;
       width: 100%;
