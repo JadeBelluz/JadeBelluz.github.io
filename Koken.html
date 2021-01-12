@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jade's Blog</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+</head>
+
+<style media="screen">
+  ::-moz-selection {
+    background-color: #e3d3ca;
+    color: white;
+  }
+  ::selection {
+    background-color: #e3d3ca;
+    color: white;
+  }
+  </style>
+
+<body>
+  <header>
+    <div class="homepageimg">
+    <a href="index.html"><img src="img/Homepagefoto.jpg" alt="Homepage">
+  </a>
+  </div>
+  <p></p>
+  </header>
+
+  <center>
+<div class="navigationbar">
+  <ul>
+    <li><a href="Koken.html">Koken</a></li>
+    <li><a href="DIY.html">DIY</a></li>
+    <li><a href="Boeken.html">Boeken</a></li>
+    <li><a href="Interieur.html">Interieur</a></li>
+    <li><a href="Reizen.html">Reizen</a></li>
+    <li><a href="Beauty.html">Beauty</a></li>
+  </ul>
+</div>
+</center>
+
+<main>
+  <div class="row">
+    <div class="column1">
+      <div class="card">
+        <h2>Dadelbrownies</h2>
+        <h4>Een heerlijk recept voor 'gezondere' brownies</h4>
+        <div class="fakeimg">
+            <img src="img/Eindproduct2.jpg" alt="Dadelbrownie" class="responsive">
+        </div>
+        <p>Het is 2021 en dat betekent dat het tijd is voor goede voornemens. Een daarvan is voor veel mensen gezonder eten. Af en toe mag je zondigen, maar het liefst zondigen we natuurlijk ook met een gezondere versie. Daar zijn deze brownies perfect voor!</p>
+        <a href="index.html"><button style="height: 55px; width: 100px;"><h4>Lees meer...</h4></button></a>
+    </div>
+  </div>
+
+<div class="column2">
+  <div class="card">
+      <h2>Over mij</h2><br><br>
+      <div class="fakeimg">
+          <img src="img/Jade (27).jpg" alt="Over mij" class="responsive">
+      </div>
+      <p>Hi!<br><br>
+      Ik ben Jade en ik ben 16 jaar</p>
+    </div>
+
+
+  <div class="darkmodebutton">
+    <button onclick="myFunction()">Nachtmodus</button>
+  </div>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+        <div class="card">
+      <h3>Populaire berichten</h3>
+      <div class="fakeimg">
+        <img src="img/Vliegtuigfoto2.jpg" alt="Vakantie Portugal 2017" class="responsive"></div><br>
+      <div class="fakeimg">
+        <img src="img/Eindproduct2.jpg" alt="Dadelbrownie" class="responsive"></div><br>
+      <div class="fakeimg">
+        <img src="img/Rotsen.jpg" alt="Rotsen Portugal" class="responsive"></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <form>
+    <div class="container">
+      <h3> Meld je aan voor de nieuwsbrief </h3>
+    </div>
+    <div class="container" style="background-color:#e3d3ca">
+    <input type="text" placeholder="Naam" name="name" required>
+    <input type="text" placeholder="Email" name="mail" required><br>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Wekelijkse Nieuwsbrief
+      <input type="checkbox" name="subscribe"> Maandelijkse Nieuwsbrief
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+  header {
+    text-align: center;
+    background-color: #F5F3EF;
+    color: white
+    padding: 40px;
+    font-size: 25px;
+  }
+
+  body {
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 25px;
+    background: #F5F3EF;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #642714;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+
+  li a {
+    font-size:18px;
+    font-family:  'Trebuchet MS', sans-serif;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    position: relative;
+    transition: all ease-in-out 250ms;
+    text-decoration: none;
+  }
+
+  li a::after{
+    content:'';
+    position: absolute;
+    display: block;
+    height: 0.4em;
+    width: 0%;
+    background-color: #e3d3ca;
+    bottom: -1px;
+    transition: all ease-in-out 250ms;
+  }
+
+  li a:hover::after{
+    width: 70%;
+  }
+
+  li a:hover{
+    color: #e3d3ca;
+  }
+
+
+  .column1 {
+    float: left;
+    width: 50%;
+    padding-left: 14%;
+  }
+
+  .column2 {
+    float: left;
+    width: 20%;
+    padding-left: 2%;
+  }
+
+  .fakeimg {
+    background-color: #e3d3ca;
+    width: 96,5%;
+    padding: 4px;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width:800px) {
+    .column1, .column2 {
+      width: 100%;
+      padding: 0;
+    }
+
+    ul {
+      display: block;
+      width: 100%;
+    }
+
+    li a::after {
+      content:'';
+      position: absolute;
+      display: block;
+      height: 0.4em;
+      width: 0%;
+      background-color: #b26d46;
+      bottom: -1px;
+      transition: all ease-in-out 600ms;
+    }
+  }
+
+  footer {
+    text-align: center;
+    background-color: #e3d3ca;
+    color: white
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  form {
+    border: 2px solid #e3d3ca;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+  .container {
+    padding: 10px;
+    background-color: #e3d3ca;
+  }
+
+  input[type=text], input[type=submit] {
+    width: 20%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+
+  input[type=submit] {
+    background-color: #642714;
+    color: white;
+    border: none;
+  }
+
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+
+  .dark-mode {
+    background-color: #432f23;
+  }
+
+  .darkmodebutton {
+    padding-top: 20px;
+  }
