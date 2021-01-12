@@ -89,7 +89,7 @@
     clear: both;
   }
 
-  @media screen and (max-width:800px) {
+  @media screen and (max-width:1000px) {
     .column1, .column2 {
       width: 100%;
       padding: 0;
@@ -106,7 +106,7 @@
       display: block;
       height: 0.4em;
       width: 0%;
-      background-color: #b26d46;
+      background-color: #e3d3ca;
       bottom: -1px;
       transition: all ease-in-out 600ms;
     }
