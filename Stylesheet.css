@@ -121,7 +121,6 @@
     background-color: #e3d3ca;
     color: white
     padding: 20px;
-    margin-top: 20px;
   }
 
   form {
@@ -164,4 +163,132 @@
 
   .darkmodebutton {
     padding-top: 20px;
+  }
+
+  .worldmap {
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .worldmap path {
+    fill: #e3d3ca;
+    stroke: #642714;
+    stroke-width: 1px;
+    transition: fill 0.5s;
+  }
+
+  .worldmap :hover {
+    fill: #642714;
+  }
+
+  .todo-list {
+    width: 350px;
+  }
+
+  .todo-list header {
+    color: #642714;
+    border-top: 1em solid #642714;
+    padding: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+  }
+
+  .todo-list footer {
+    background-color: #F5F3EF;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: .7em 0;
+  }
+
+  .todo-list .do input[type=checkbox] {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .todo-list .do label {
+    font-family: 'Handlee', cursive;
+    position: relative;
+    display: block;
+    padding: .75em 1em;
+    background-color: #F5F3EF;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+  }
+
+  .todo-list .do label:hover {
+    transform: translateX(+1em);
+  }
+
+  .todo-list .do label::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #000;
+    border-radius: 30%;
+    vertical-align: middle;
+    margin-right: .5em;
+  }
+
+  .todo-list .do label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #642714;
+    transition: .3s ease-in-out;
+  }
+
+  .todo-list .do label:hover::after {
+    width: 5px;
+  }
+
+  .todo-list .do label .fa-check {
+    position: absolute;
+    left: .7em;
+    top: .25em;
+    font-size: 1.7em;
+    color: #e3d3ca;
+    opacity: 0;
+    transition: .3s ease-in-out;
+  }
+
+  .todo-list .do input[type=checkbox]:checked + label .fa-check {
+    opacity: 1;
+  }
+
+  .todo-list .do label .label {
+    position: relative;
+    transition: .3s ease-in-out;
+  }
+
+  .todo-list .do input[type=checkbox]:checked + label .label {
+    color: #aaaaaa;
+  }
+
+  .todo-list .do label .label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    top: 50%;
+    height: 1px;
+    background-color: #aaaaaa;
+    transition: .3s ease-in-out;
+  }
+
+  .todo-list .do input[type=checkbox]:checked + label .label::after {
+    right: 0;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .Blogpost1padding {
+    padding-left: 10%;
+    padding-right: 10%;
   }

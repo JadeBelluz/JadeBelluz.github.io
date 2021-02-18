@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jade's Blog</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+
+<style media="screen">
+  ::-moz-selection {
+    background-color: #e3d3ca;
+    color: white;
+  }
+  ::selection {
+    background-color: #e3d3ca;
+    color: white;
+  }
+  </style>
+
+<body>
+  <header>
+    <div class="homepageimg">
+    <a href="index.html"><img src="img/Homepagefoto.jpg" alt="Homepage">
+  </a>
+  </div>
+  <p></p>
+  </header>
+
+  <center>
+<div class="navigationbar">
+  <ul>
+    <li><a href="Koken.html">Koken</a></li>
+    <li><a href="DIY.html">DIY</a></li>
+    <li><a href="Boeken.html">Boeken</a></li>
+    <li><a href="Interieur.html">Interieur</a></li>
+    <li><a href="Reizen.html">Reizen</a></li>
+    <li><a href="Beauty.html">Beauty</a></li>
+  </ul>
+</div>
+</center>
+
+<main>
+  <div class="Blogpost1padding">
+   <div class="row">
+     <div class="card">
+        <h1>Dadelbrownies</h1>
+        <div class="fakeimg">
+            <img src="img/Brownies1.jpg" alt="Dadelbrownie" class="responsive">
+        </div>
+        <h3>Een heerlijk recept voor 'gezondere' brownies</h3>
+        <p>Het is 2021 en dat betekent dat het tijd is voor goede voornemens.
+          Een daarvan is voor veel mensen gezonder eten. Af en toe mag je zondigen,
+          maar het liefst zondigen we natuurlijk ook met een gezondere versie.
+          Daar zijn deze brownies perfect voor!<br><br>
+          Wat heb je nodig:</p>
+<section class="todo-list">
+  <header>Ingrediëntenlijst</header>
+
+  <div class="do">
+    <input type="checkbox" id="do1">
+      <label for="do1">
+        <i class="fas fa-check"></i>
+        <span class="label">25 zachte dadels</span>
+      </label>
+  </div>
+  <div class="do">
+    <input type="checkbox" id="do2">
+      <label for="do2">
+        <i class="fas fa-check"></i>
+        <span class="label">2 eetlepels gesmolten kokosolie</span>
+      </label>
+  </div>
+  <div class="do">
+    <input type="checkbox" id="do3">
+      <label for="do3">
+        <i class="fas fa-check"></i>
+        <span class="label">1 eetlepel water</span>
+      </label>
+  </div>
+  <div class="do">
+    <input type="checkbox" id="do4">
+      <label for="do4">
+        <i class="fas fa-check"></i>
+        <span class="label">65 gram pecannoten</span>
+      </label>
+  </div>
+  <div class="do">
+    <input type="checkbox" id="do5">
+      <label for="do5">
+        <i class="fas fa-check"></i>
+        <span class="label">50 gram cacaopoeder</span>
+      </label>
+  </div>
+  <div class="do">
+    <input type="checkbox" id="do6">
+      <label for="do6">
+        <i class="fas fa-check"></i>
+        <span class="label">50 gram grof gehakte, pure chocolade</span>
+      </label>
+  </div>
+  <div class="do">
+    <input type="checkbox" id="do7">
+      <label for="do7">
+        <i class="fas fa-check"></i>
+        <span class="label">Optioneel: grof zeezout</span>
+      </label>
+  </div>
+    <footer></footer>
+</section>
+
+    <p>1.  Verwarm de oven voor op 180C.<br>
+       2.  Blend de dadels, kokosolie, cacaopoeder en water in een keukenmachine tot een dikke, romige substantie.<br>
+       3.  Voeg de pecannoten toe, daara de chocolade en het zout en blend heel kort, tot de pecannoten grof gehakt zijn.<br>
+       4.  Doe het mengsel in een ovenschaal en bak voor 10 minuten.<br>
+       5.  Haal de brownie uit de oven en giet er gesmolten chocolade en zout overheen. Warm is de brownie het lekkerst.
+    </p>
+    </div>
+  </div>
+    <div class="fakeimg">
+        <img src="img/Ingredientsdadels.jpg" alt="Ingrediënten" class="responsive">
+    </div>
+<div>
+
+  <div class="darkmodebutton">
+    <button onclick="myFunction()">Nachtmodus</button>
+  </div>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+</main>
+
+<footer>
+  <form>
+    <div class="container">
+      <h3> Meld je aan voor de nieuwsbrief </h3>
+    </div>
+    <div class="container" style="background-color:#e3d3ca">
+    <input type="text" placeholder="Naam" name="name" required>
+    <input type="text" placeholder="Email" name="mail" required><br>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Wekelijkse Nieuwsbrief
+      <input type="checkbox" name="subscribe"> Maandelijkse Nieuwsbrief
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+</footer>
+
+
+</body>
+</html>
