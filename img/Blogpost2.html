@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jade's Blog</title>
+  <link rel="stylesheet" href="Stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+</head>
+
+<style media="screen">
+  ::-moz-selection {
+    background-color: #e3d3ca;
+    color: white;
+  }
+  ::selection {
+    background-color: #e3d3ca;
+    color: white;
+  }
+  </style>
+
+<body>
+  <header>
+    <div class="homepageimg">
+    <a href="index.html"><img src="img/Homepagefoto.jpg" alt="Homepage">
+  </a>
+  </div>
+  <p></p>
+  </header>
+
+  <center>
+<div class="navigationbar">
+  <ul>
+    <li><a href="Koken.html">Koken</a></li>
+    <li><a href="DIY.html">DIY</a></li>
+    <li><a href="Boeken.html">Boeken</a></li>
+    <li><a href="Interieur.html">Interieur</a></li>
+    <li><a href="Reizen.html">Reizen</a></li>
+    <li><a href="Beauty.html">Beauty</a></li>
+  </ul>
+</div>
+</center>
+
+<main>
+  <div class="Blogpost1padding">
+   <div class="row">
+     <div class="card">
+        <h1>Praia da Luz 2017</h1>
+        <div class="fakeimg">
+            <img src="img/Vliegtuigfoto2.jpg" alt="Vliegtuig" class="responsive">
+        </div>
+        <h3>Mijn vakantie naar Portugal 2017</h3>
+        <p>In 2017 ben ik 2 weken naar Portugal geweest. In het plaatsje Praia da Luz. Ja, zelfs op hetzelfde resort als waar Madeleine Mccann 10 jaar eerder vermist is geraakt.
+        <div class="column">
+          <div class="fakeimg">
+              <img src="img/Maddie.jpg" alt="Madeleine Mccan" class="responsive">
+          </div>
+        </div> <br>
+          We zijn daar niet heen gegaan om een onderzoek te doen hoor. Wij kwamen voor de mooie omgeving en het lekkere weer.</p>
+
+    <p> De foto die je helemaal bovenaan ziet, heb ik gemaakt toen we vlogen naar het vliegveld van Faro. De zon kwam op en dat was heel mooi.<br>
+      Ik ben nog nooit 2x naar dezelfde plek op vakantie geweest, maar in 2015 waren we ook naar Praia da Luz geweest en dat vonden we zo leuk, dat we besloten terug te komen in 2017.<br><br>
+      Hieronder zie je nog wat foto's van de vakantie:<br>
+      <div class="rij">
+        <div class="column">
+          <div class="fakeimg">
+          <img src="img/Bloem_2.jpg" alt="Bloem" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/HuisjeinPraiadaLuz.jpg" alt="Ons huisje" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/Uitzichtophetstrand(3).jpg" alt="Strand" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/Rotsen.jpg" alt="Zonsondergang" class="responsive">
+          </div>
+        </div>
+        <div class="column">
+          <div class="fakeimg">
+          <img src="img/KliffenbijPraiadaLuz.jpg" alt="De kliffen" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/Luzbynight.jpg" alt="Nacht" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/Vliegtuigfoto.jpg" alt="Vliegtuig" class="responsive">
+          </div>
+        </div>
+        <div class="column">
+          <div class="fakeimg">
+          <img src="img/PleininLagos.jpg" alt="Lagos" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/Uitzichtvanuitkasteel.jpg" alt="Kasteeltje" class="responsive">
+          </div>
+          <div class="fakeimg">
+          <img src="img/Vlondernaarderotesen.jpg" alt="Vlonder naar zee" class="responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="darkmodebutton">
+    <button onclick="myFunction()">Nachtmodus</button>
+  </div>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+
+</main>
+
+<footer>
+  <form>
+    <div class="container">
+      <h3> Meld je aan voor de nieuwsbrief </h3>
+    </div>
+    <div class="container" style="background-color:#e3d3ca">
+    <input type="text" placeholder="Naam" name="name" required>
+    <input type="text" placeholder="Email" name="mail" required><br>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Wekelijkse Nieuwsbrief
+      <input type="checkbox" name="subscribe"> Maandelijkse Nieuwsbrief
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+</footer>
+
+
+</body>
+</html>
