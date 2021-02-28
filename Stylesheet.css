@@ -121,6 +121,7 @@
     background-color: #e3d3ca;
     color: white
     padding: 20px;
+    margin-top: 20px;
   }
 
   form {
@@ -155,7 +156,6 @@
   input[type=submit]:hover {
     opacity: 0.8;
   }
-
 
   .dark-mode {
     background-color: #432f23;
@@ -192,13 +192,6 @@
     padding: 1em;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-  }
-
-  .todo-list footer {
-    background-color: #F5F3EF;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    padding: .7em 0;
   }
 
   .todo-list .do input[type=checkbox] {
@@ -289,6 +282,27 @@
   }
 
   .Blogpost1padding {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .column {
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+
+  .rij {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+  #map {
+    height: 500px;
+    width: 100%;
+  }
+
+  .instagrampic {
+    width: 30%;
   }
